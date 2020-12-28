@@ -71,11 +71,7 @@ def run_alexa():
         os.system("mpg321 l.mp3")
         playsound.playsound('l.mp3', True)
 
-    elif 'aunty' in command:
-        tts = gTTS(text='হ্যাঁ সুমা আন্টিকে আমি চিনি তার হবু বরের নাম পললোব', lang='bn')
-        tts.save("go.mp3")
-        os.system("mpg321 go.mp3")
-        playsound.playsound('go.mp3', True)
+
 
     elif 'ki' in command:
         tts = gTTS(text='হ্যা, ঝংকার মাহবুব একজন প্রোগ্রামার, ইউটিউবার, লেখক। উনার লাইফের উল্লেখযোগ্য অর্জনের মধ্যে অন্যতম হচ্ছে-- ক্লাস সেভেনে থাকার সময়, স্ট্যান্ডআপ কমেডিতে দ্বিতীয় স্থান দখল', lang='bn')
